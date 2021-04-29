@@ -37,4 +37,4 @@ I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've b
 
 ## Let's code!
 
-<img alt="coding" title="#coding" src="img/coding.gif" />
+<img alt="coding" title="#coding" src="img/coding.gif" width="200px" height="200px" />
