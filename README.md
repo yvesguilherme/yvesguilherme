@@ -1,6 +1,6 @@
 <h2>Hi there <img alt="hi" title="#hi" src="img/hi-there.gif" width="30px" /> </h2>
 
-I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've been working in tech since 2016. I'm from Brazil and I'm 25 years old.
+I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've been working in tech since 2016. I'm from Brazil and I'm 26 years old.
 
 ### To contact me
 
@@ -28,11 +28,11 @@ I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've b
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-black?style=flat-square&logo=intellij-idea&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 
 :memo: These are some of the technologies and tools I'm studying:
 
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
-![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ## Let's code!
