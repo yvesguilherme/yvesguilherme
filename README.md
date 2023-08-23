@@ -1,6 +1,6 @@
 <h2>Hi there <img alt="hi" title="#hi" src="img/hi-there.gif" width="30px" /> </h2>
 
-I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've been working in tech since 2016. I'm from Brazil and I'm 27 years old.
+I'm Yves Guilherme, and I'm a Programmer at BB Tecnologia e Serviços and I've been working in tech since 2016. I'm from Brazil and I'm 28 years old.
 
 ### To contact me
 
