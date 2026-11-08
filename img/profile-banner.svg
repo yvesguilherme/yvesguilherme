@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Yves Guilherme</title>
+  <desc id="desc">Software Architect and Tech Lead studying cybersecurity with a Red Team focus.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827" />
+      <stop offset="0.58" stop-color="#112B35" />
+      <stop offset="1" stop-color="#123B3A" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.48">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.13" />
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="280" rx="22" fill="url(#background)" />
+  <rect width="1200" height="280" rx="22" fill="url(#glow)" />
+  <g fill="none" stroke="#56D6B7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.36">
+    <path d="M815 54h76v45h86v-27h126" />
+    <path d="M846 161h73v-28h110v45h74" />
+    <path d="M976 49v38h-34v44h-84" />
+    <path d="M1057 154v-37h52" />
+    <path d="M904 207h77v-29" />
+  </g>
+  <g fill="#91F0D3" opacity="0.88">
+    <circle cx="1103" cy="72" r="4" />
+    <circle cx="846" cy="161" r="4" />
+    <circle cx="858" cy="133" r="4" />
+    <circle cx="1109" cy="117" r="4" />
+    <circle cx="904" cy="207" r="4" />
+    <circle cx="976" cy="49" r="4" />
+  </g>
+  <g fill="none" stroke="#2DD4BF" stroke-width="1" opacity="0.16">
+    <circle cx="1017" cy="132" r="91" />
+    <circle cx="1017" cy="132" r="114" />
+  </g>
+  <text x="68" y="75" fill="#81E6C8" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2.4">SOFTWARE ARCHITECT · TECH LEAD</text>
+  <text x="64" y="151" fill="#F4F7F6" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Yves Guilherme</text>
+  <path d="M70 181h62" stroke="#57D6B6" stroke-linecap="round" stroke-width="4" />
+  <text x="68" y="222" fill="#D3E5E1" font-family="Arial, sans-serif" font-size="20">Cybersecurity studies · Red Team focus</text>
+</svg>
