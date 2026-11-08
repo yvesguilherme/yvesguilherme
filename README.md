@@ -44,7 +44,7 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=windows,linux,kali&perline=3&theme=dark" alt="Windows, Linux, Kali Linux" />
   </a>
-  <img src="https://img.shields.io/badge/macOS-4B5563?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
+  <img src="./img/macos-icon.svg" width="48" height="48" alt="macOS" />
 </p>
 
 <p align="center"><strong>IoT & messaging</strong><br />
