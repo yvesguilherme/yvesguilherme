@@ -18,7 +18,7 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
 
 <p align="center"><strong>Languages & frameworks</strong><br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,ts,nodejs,spring,angular&perline=6&theme=dark" alt="Java, JavaScript, TypeScript, Node.js, Spring, Angular" />
+    <img src="https://skillicons.dev/icons?i=java,js,ts,go,nodejs,spring,angular,react&perline=8&theme=dark" alt="Java, JavaScript, TypeScript, Go, Node.js, Spring, Angular, React" />
   </a>
 </p>
 
@@ -28,9 +28,27 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
   </a>
 </p>
 
+<p align="center"><strong>Cloud, infrastructure & messaging</strong><br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes&perline=2&theme=dark" alt="Docker, Kubernetes" />
+  </a>
+  <a href="https://azure.microsoft.com/en-us/products/devops">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/azuredevops/azuredevops-original.svg" width="48" height="48" alt="Azure DevOps" />
+  </a>
+  <a href="https://mqtt.org">
+    <img src="https://cdn.simpleicons.org/mqtt/FFFFFF" width="48" height="48" alt="MQTT" />
+  </a>
+</p>
+
+<p align="center"><strong>Operating systems</strong><br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=windows,linux,apple&perline=3&theme=dark" alt="Windows, Linux, macOS" />
+  </a>
+</p>
+
 <p align="center"><strong>Tools</strong><br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,git,github,vscode,idea&perline=5&theme=dark" alt="Docker, Git, GitHub, VS Code, IntelliJ IDEA" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,idea&perline=4&theme=dark" alt="Git, GitHub, VS Code, IntelliJ IDEA" />
   </a>
 </p>
 
