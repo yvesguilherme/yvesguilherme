@@ -1,0 +1,100 @@
+name: Grow Git Bonsai
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      commit_mode:
+        description: Sign the generated commit with GPG or leave it unsigned
+        required: true
+        type: choice
+        options:
+          - gpg
+          - unsigned
+        default: gpg
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grow-bonsai-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Choose the commit mode
+        id: signing
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REQUESTED_MODE: ${{ inputs.commit_mode }}
+          GPG_PRIVATE_KEY: ${{ secrets.BONSAI_GPG_PRIVATE_KEY }}
+        shell: bash
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            mode="$REQUESTED_MODE"
+          elif [[ -n "$GPG_PRIVATE_KEY" ]]; then
+            mode="gpg"
+          else
+            mode="unsigned"
+          fi
+
+          printf 'mode=%s\n' "$mode" >> "$GITHUB_OUTPUT"
+          echo "Selected commit mode: $mode"
+
+      - name: Check that the GPG key is configured
+        if: steps.signing.outputs.mode == 'gpg'
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.BONSAI_GPG_PRIVATE_KEY }}
+        shell: bash
+        run: |
+          if [[ -z "$GPG_PRIVATE_KEY" ]]; then
+            echo "::error::Add BONSAI_GPG_PRIVATE_KEY in Settings > Secrets and variables > Actions, then retry. BONSAI_GPG_PASSPHRASE is optional."
+            exit 1
+          fi
+
+      - name: Import the GPG signing key
+        if: steps.signing.outputs.mode == 'gpg'
+        uses: crazy-max/ghaction-import-gpg@2dc316deee8e90f13e1a351ab510b4d5bc0c82cd # v7.0.0
+        with:
+          gpg_private_key: ${{ secrets.BONSAI_GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.BONSAI_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_committer_name: Yves Guilherme Lopo Ribeiro Lima
+          git_committer_email: yveslopo@gmail.com
+
+      - name: Generate the bonsai images
+        uses: egorthinks/git-bonsai@665258cab3f304cfb33a96fc7bf108cec1f452f3 # v1
+        with:
+          github-token: ${{ github.token }}
+          user: yvesguilherme
+          output-dir: img
+          commit: 'false'
+
+      - name: Commit and push generated images
+        env:
+          SIGNING_MODE: ${{ steps.signing.outputs.mode }}
+        shell: bash
+        run: |
+          git config user.name "Yves Guilherme Lopo Ribeiro Lima"
+          git config user.email "yveslopo@gmail.com"
+          git add --all -- img/bonsai.svg img/bonsai.png img/bonsai.gif img/bonsai-growth.gif img/bonsai-yvesguilherme.gif
+
+          if git diff --cached --quiet; then
+            echo "The bonsai images have not changed."
+            exit 0
+          fi
+
+          if [[ "$SIGNING_MODE" == "gpg" ]]; then
+            git -c commit.gpgsign=true commit -S -m "chore(bonsai): refresh profile tree"
+          else
+            git -c commit.gpgsign=false commit -m "chore(bonsai): refresh profile tree"
+          fi
+
+          git push

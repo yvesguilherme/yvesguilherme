@@ -94,10 +94,10 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
 
 <p align="center">
   <a href="https://github.com/egorthinks/git-bonsai">
-    <img src="./img/bonsai-yvesguilherme.gif" alt="Pixel-art cherry bonsai generated from my public GitHub history" width="280" />
+    <img src="./img/bonsai.gif" alt="Pixel-art cherry bonsai generated from my public GitHub history" width="280" />
   </a>
   &nbsp;&nbsp;
   <img src="./img/pixel-developer.gif" alt="Retro pixel-art developer typing at a CRT" width="150" height="150" />
 </p>
 
-<p align="center"><sub>A Git Bonsai grown from my public history, with a tiny retro coding loop.</sub></p>
+<p align="center"><sub>Daily-grown from my public GitHub history, with a tiny retro coding loop.</sub></p>
