@@ -44,7 +44,7 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=windows,linux,kali&perline=3&theme=dark" alt="Windows, Linux, Kali Linux" />
   </a>
-  <img src="https://img.shields.io/badge/macOS-4B5563?style=for-the-badge" alt="macOS" />
+  <img src="https://img.shields.io/badge/macOS-4B5563?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
 </p>
 
 <p align="center"><strong>IoT & messaging</strong><br />
@@ -90,12 +90,14 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
 </p>
 <p align="center"><sub>LLM harness tooling · model routing · MCP servers</sub></p>
 
-## Git Bonsai
+## Git Bonsai & pixel coding
 
 <p align="center">
   <a href="https://github.com/egorthinks/git-bonsai">
-    <img src="./img/bonsai-yvesguilherme.gif" alt="Pixel-art cherry bonsai generated from my public GitHub history" width="320" />
+    <img src="./img/bonsai-yvesguilherme.gif" alt="Pixel-art cherry bonsai generated from my public GitHub history" width="280" />
   </a>
+  &nbsp;&nbsp;
+  <img src="./img/pixel-developer.gif" alt="Retro pixel-art developer typing at a CRT" width="150" height="150" />
 </p>
 
-<p align="center"><sub>A snapshot of my public GitHub history, grown with <a href="https://github.com/egorthinks/git-bonsai">Git Bonsai</a>.</sub></p>
+<p align="center"><sub>A Git Bonsai grown from my public history, with a tiny retro coding loop.</sub></p>
