@@ -18,31 +18,41 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
 
 <p align="center"><strong>Languages & frameworks</strong><br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,ts,go,nodejs,spring,angular,react&perline=8&theme=dark" alt="Java, JavaScript, TypeScript, Go, Node.js, Spring, Angular, React" />
+    <img src="https://skillicons.dev/icons?i=java,js,ts,go,nodejs,spring,angular,react,bash&perline=9&theme=dark" alt="Java, JavaScript, TypeScript, Go, Node.js, Spring, Angular, React, Bash" />
   </a>
 </p>
 
-<p align="center"><strong>Web</strong><br />
+<p align="center"><strong>Web & UI</strong><br />
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap&perline=4&theme=dark" alt="HTML, CSS, Sass, Bootstrap" />
   </a>
+  <a href="https://material.angular.dev/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/angularmaterial/angularmaterial-original.svg" width="48" height="48" alt="Angular Material" />
+  </a>
 </p>
 
-<p align="center"><strong>Cloud, infrastructure & messaging</strong><br />
+<p align="center"><strong>Cloud & infrastructure</strong><br />
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=docker,kubernetes&perline=2&theme=dark" alt="Docker, Kubernetes" />
   </a>
   <a href="https://azure.microsoft.com/en-us/products/devops">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/azuredevops/azuredevops-original.svg" width="48" height="48" alt="Azure DevOps" />
   </a>
-  <a href="https://mqtt.org">
-    <img src="https://cdn.simpleicons.org/mqtt/FFFFFF" width="48" height="48" alt="MQTT" />
-  </a>
 </p>
 
-<p align="center"><strong>Operating systems</strong><br />
+<p align="center"><strong>Operating systems & security</strong><br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=windows,linux,apple&perline=3&theme=dark" alt="Windows, Linux, macOS" />
+    <img src="https://skillicons.dev/icons?i=windows,linux,kali&perline=3&theme=dark" alt="Windows, Linux, Kali Linux" />
+  </a>
+  <img src="https://img.shields.io/badge/macOS-4B5563?style=for-the-badge" alt="macOS" />
+</p>
+
+<p align="center"><strong>IoT & messaging</strong><br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=arduino&perline=1&theme=dark" alt="Arduino" />
+  </a>
+  <a href="https://mqtt.org">
+    <img src="https://cdn.simpleicons.org/mqtt/FFFFFF" width="48" height="48" alt="MQTT" />
   </a>
 </p>
 
@@ -51,6 +61,34 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
     <img src="https://skillicons.dev/icons?i=git,github,vscode,idea&perline=4&theme=dark" alt="Git, GitHub, VS Code, IntelliJ IDEA" />
   </a>
 </p>
+
+<p align="center"><strong>LLM agents, harnesses & MCP</strong><br />
+  <a href="https://kiro.dev/">
+    <img src="https://devicons.io/devicons/icons/kiro-icon.svg" width="44" height="44" alt="Kiro" title="Kiro" />
+  </a>
+  <a href="https://github.com/features/copilot">
+    <img src="https://cdn.simpleicons.org/githubcopilot/FFFFFF" width="44" height="44" alt="GitHub Copilot" title="GitHub Copilot" />
+  </a>
+  <a href="https://openai.com/codex/">
+    <img src="https://devicons.io/devicons/icons/codex-icon.svg" width="44" height="44" alt="Codex" title="Codex" />
+  </a>
+  <a href="https://claude.ai/">
+    <img src="https://cdn.simpleicons.org/claude/FFFFFF" width="44" height="44" alt="Claude" title="Claude" />
+  </a>
+  <a href="https://openrouter.ai/">
+    <img src="https://cdn.simpleicons.org/openrouter/FFFFFF" width="44" height="44" alt="OpenRouter" title="OpenRouter" />
+  </a>
+  <a href="https://github.com/nexu-io/open-design">
+    <img src="./img/opendesign.svg" width="44" height="44" alt="OpenDesign" title="OpenDesign" />
+  </a>
+  <a href="https://opencode.ai/">
+    <img src="https://cdn.simpleicons.org/opencode/FFFFFF" width="44" height="44" alt="OpenCode" title="OpenCode" />
+  </a>
+  <a href="https://modelcontextprotocol.io/">
+    <img src="https://cdn.simpleicons.org/modelcontextprotocol/FFFFFF" width="44" height="44" alt="Model Context Protocol (MCP)" title="MCP" />
+  </a>
+</p>
+<p align="center"><sub>LLM harness tooling · model routing · MCP servers</sub></p>
 
 ## Git Bonsai
 
