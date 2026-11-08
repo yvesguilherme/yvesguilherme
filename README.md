@@ -34,14 +34,6 @@ I’m 31, based in Brazil, and have worked in technology since 2016. I currently
   </a>
 </p>
 
-## GitHub languages
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yvesguilherme&layout=compact&theme=default&hide_border=true" alt="Most used languages in public GitHub repositories" />
-  </a>
-</p>
-
 ## Git Bonsai
 
 <p align="center">
